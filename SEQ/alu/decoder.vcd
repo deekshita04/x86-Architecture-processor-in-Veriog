@@ -1,0 +1,39 @@
+$date
+	Fri Jan 26 00:38:19 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench_decoder $end
+$var wire 1 ! out4 $end
+$var wire 1 " out3 $end
+$var wire 1 # out2 $end
+$var wire 1 $ out1 $end
+$var reg 2 % A [1:0] $end
+$scope module uut $end
+$var wire 2 & A [1:0] $end
+$var wire 1 $ out1 $end
+$var wire 1 # out2 $end
+$var wire 1 " out3 $end
+$var wire 1 ! out4 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 &
+b0 %
+1$
+0#
+0"
+0!
+$end
+#10
+0$
+1"
+b10 %
+b10 &
+#20
